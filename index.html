@@ -1,0 +1,151 @@
+<html>
+    
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/indexstyle.css" rel="stylesheet">
+    
+</head>
+    
+<body>
+    
+   
+    <h1 class="text-center my-5 text-primary">Phone book </h1>
+    
+    <div class="container">
+        
+        <div class="HeadContact">
+            
+            <div class="form-group">
+                
+                <input id="UserName" class="form-control" placeholder="Enter Name">
+                
+            </div>
+            <div class="form-group">
+                
+                <input id="Userphone" class="form-control" placeholder="Enter Phone">
+                
+            </div>
+            <div class="form-group">
+                
+                <input id="UserAddress" class="form-control" placeholder="Enter Address">
+                
+            
+            
+            </div>
+            <div class="form-group">
+                
+                <input id="UserEmail" class="form-control" placeholder="Enter Email">
+                
+            
+            
+            </div>
+            
+            <button onclick="add()" class="btn btn-primary float-right"> Add </button>
+            <div class="clearfix"></div>
+            
+            <div>
+                
+                    <input class="form-control w-25 float-left" placeholder="Search" id="ItemSearch">
+                    <button onclick="Search()" class="btn bg-success ml-2">Search</button>
+                  <div class="clearfix"></div>
+
+            
+            </div>
+     
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="table_ex mt-4">
+            <table class="table text-center">
+                
+                <thead class=" text-primary">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                
+                
+                </thead>
+                
+                <tbody id="MyBody">
+                    
+                
+                </tbody>
+            
+            
+            
+            
+            </table>
+          
+        
+        </div>
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--
+    
+    <div class="container my-5">
+        <div class="form-group">
+            
+            <label>User Email</label>
+            <input id="UserEmail" class="form-control">
+        
+        </div>
+        
+        <div class="form-group">
+            
+            <label>User Name</label>
+            <input id="UserName" class="form-control">
+        
+        </div>
+        
+        <div class="form-group">
+            
+            <label>User Domain</label>
+            <input id="UserDomain" class="form-control">
+        
+        </div>
+        
+        
+        <button onclick="cutUser()" class="btn btn-info">Done</button>
+   
+    
+   
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+-->
+    
+    
+ <script src="js/jquery-3.3.1.slim.min.js"></script>   
+ <script src="js/popper.min.js"></script>   
+ <script src="js/bootstrap.min.js"></script> 
+ <script src="js/mine.js"></script>   
+</body>
+
+</html>
